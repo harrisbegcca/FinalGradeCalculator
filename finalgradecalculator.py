@@ -12,9 +12,9 @@ while (i <= 100 and found == False):
     if float(n) <= ((i * (w / 100)) + (num * ((100 - w) / 100))):
         found = True
         print ("You need %s percent on the final!" % (i))
-        if (i <= 75):
+        if (i <= 85):
             print("Relax!")
-        if (i <= 90 and not (i <= 75)):
+        if (i <= 90 and not (i <= 85)):
             print("You might want to study a bit!")
         if i <= 100 and not (i <= 90):
             print("Study!")
